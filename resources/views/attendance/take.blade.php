@@ -141,7 +141,7 @@
                         <input type="checkbox" name="attendance[${student.id}]" value="present"> Present
                     </td>
                 </tr>`;
-                studentList.innerHTML += row;
+                studentList.innerHTML += row; 
             });
 
             document.getElementById('studentsSection').classList.remove('d-none');
